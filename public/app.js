@@ -51,7 +51,18 @@ const feedModal = (modalID) => {
   let live = document.getElementById('live');
   let source = document.getElementById('source');
 
-  //reduce siteObject to the selected site modal
+  //FILTER OPTION
+  //filter the array and return just one object
+  // let site = siteObject.filter((site) => {
+  //   return site.id === modalID;
+  // })
+
+  //assign site to the returned filtered array at index 0
+
+  // site = site[0];
+
+  // REDUCE OPTION
+  //reduce siteObject to the selected site object
   const site = siteObject.reduce((acc, curr) => {
     if (curr.id === modalID) {
       return curr;
