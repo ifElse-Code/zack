@@ -52,13 +52,12 @@ const feedModal = (modalID) => {
   let source = document.getElementById('source');
 
   //FILTER OPTION
-  //filter the array and return just one object
+  //filter the array and return just one site object in an array
   // let site = siteObject.filter((site) => {
   //   return site.id === modalID;
   // })
 
   //assign site to the returned filtered array at index 0
-
   // site = site[0];
 
   // REDUCE OPTION
